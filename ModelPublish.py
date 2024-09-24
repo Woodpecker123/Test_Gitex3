@@ -4,7 +4,8 @@
 # In[ ]:
 
 
-#pip3import sasctl
+#pip3
+import sasctl
 from sasctl import Session
 from sasctl import publish_model
 from sasctl.services import model_repository as mr 

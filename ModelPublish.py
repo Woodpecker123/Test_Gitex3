@@ -4,7 +4,10 @@
 # In[ ]:
 
 
-#pip3 install sasctl
+#pip3import sasctl
+from sasctl import Session
+from sasctl import publish_model
+from sasctl.services import model_repository as mr install sasctl
 
 
 # In[4]:
@@ -16,10 +19,6 @@ session = Session('https://sit.woodpecker.com','akash','akash@2024',verify_ssl =
 # In[2]:
 
 
-import sasctl
-from sasctl import Session
-from sasctl import publish_model
-from sasctl.services import model_repository as mr
 
 
 # In[5]:

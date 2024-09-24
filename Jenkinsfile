@@ -1,10 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('One') {
+    stage('checkversion') {
       steps {
-        echo 'Hello Please Work'
-        sh 'ModelPublish.py'
+          sh 'python3 --version'
+      }
+    }
+     stage('run python') {
+      steps {
+       
+        sh 'python3 test.py'
       }
     }
 

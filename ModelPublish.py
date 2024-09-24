@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-pip install sasctl
+pip3 install sasctl
 
 
 # In[4]:

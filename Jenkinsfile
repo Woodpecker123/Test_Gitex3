@@ -9,7 +9,7 @@ pipeline {
      stage('run python') {
       steps {
        
-        sh 'python3 test.py'
+        sh 'python3 ModelPublish.py'
       }
     }
 

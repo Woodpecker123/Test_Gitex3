@@ -7,7 +7,7 @@
 #pip3import sasctl
 from sasctl import Session
 from sasctl import publish_model
-from sasctl.services import model_repository as mr install sasctl
+from sasctl.services import model_repository as mr 
 
 
 # In[4]:

@@ -25,6 +25,6 @@ from sasctl.services import model_repository as mr
 # In[5]:
 
 
-model = mr.get_model('RandomForest3')
+model = mr.get_model('logreg')
 publish_model(model,'maslocal')
 

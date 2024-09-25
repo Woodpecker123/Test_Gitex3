@@ -1,13 +1,13 @@
 pipeline {
   agent any
   stages {
-    stage('checkversion') {
+    stage('Check Python Version') {
       steps {
           sh 'python3 --version'
           sh 'pip install sasctl'
       }
     }
-     stage('run python') {
+     stage('Publish Model') {
       steps {
        
         sh 'python3 ModelPublish.py'

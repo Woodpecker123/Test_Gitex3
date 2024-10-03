@@ -25,6 +25,6 @@ session = Session('https://sit.woodpecker.com','akash','akash@2024',verify_ssl =
 # In[5]:
 
 
-model = mr.get_model('DecisionTreeClassifierhmeq')
+model = mr.get_model('DecisionTreeClassifier_test')
 publish_model(model,'maslocal')
 
